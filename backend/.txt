@@ -1,0 +1,17 @@
+http://localhost:3001/api/transactions
+POST REQUEST 
+{
+  "user_id": 1,
+  "merchant_id": 1,
+  "amount": 2345.00,
+  "latitude": 45.00045,
+  "longitude": -34.006,
+  "device_hash": "#34r3f"
+}
+
+POST REQUEST MESSAGE
+
+{
+  "message": "Transaction processed successfully",
+  "transaction_id": 24
+}
